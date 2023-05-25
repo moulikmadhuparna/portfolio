@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Creative freelance frontend developer</title>
+    <meta name="title" content="Creative Frontend Designer: Crafting Engaging User Experiences" />
+    <meta name="description"
+        content="An passionate and skilled frontend designer, I have 8 Month of Experience I specialize in creating user-friendly interfaces that are both aesthetically pleasing and easy to use." />
+    <link rel="stylesheet" href="./assets/style.css">
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+
+        <!-- header -->
+        <section class="header">
+            <div class="container-fluid px-0 ">
+                <div class="topbar">
+                    <div class="col-lg-10 col-sm-10 col-md-10 d-flex justify-content-end">
+                        <ul class="socials">
+                            <li><i class="bi bi-envelope-at mr-10"></i><a
+                                    href="mailto:madhuparnamoulik1999@gmail.com">madhuparnamoulik1999@gmail.com</a></li>
+                            <li><i class="bi bi-instagram"></i></li>
+                            <li><i class="bi bi-linkedin"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="nav-lg">
+                    <div class="row d-flex align-items-baseline">
+                        <div class="col-lg-3 logo">
+                            <h4>Madhuparna<span>M</span>oulik</h4>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul class="nav-lg-menu">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 d-flex justify-content-center">
+                            <a href="#contact" class="btn primary-btn">Send Me A Massage</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- nav for mobile screen -->
+                <div class="nav-sm">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-3 logo">
+                            <h4>Madhuparna<span>M</span>oulik</h4>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center">
+                            <button class="btn toggle-menu" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+                                    class="bi bi-list"></i></button>
+
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                                aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h4 class="offcanvas-title logo" id="offcanvasRightLabel">Madhuparna Moulik</h4>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="nav-sm-menu">
+                                        <li><a href="#home">Home</a></li>
+                                        <li><a href="#about">About</a></li>
+                                        <li><a href="#services">Services</a></li>
+                                        <li><a href="#portfolio">Portfolio</a></li>
+                                    </ul>
+                                    <ul class="nav-sm-contact">
+                                        <li><a href="#contact">Contact</a></li>
+                                        <li><a href="#contact">Send Me A Massage</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-6 col-md-10 col-sm-12 hero-left">
+                        <h1>Hello! I'm<span>Madhuparna Moulik</span>An passionate Developer</h1>
+                        <h6>I am a frontend developer with expertise in creating beautiful and intuitive user interfaces
+                            using HTML, CSS, and JavaScript. I focus on creating user-friendly interfaces that are both
+                            aesthetically pleasing and easy to use.</h6>
+                    </div>
+                    <div class="col-lg-6 col-md-10 col-sm-12 hero-right d-flex justify-content-end">
+                        <img src="./assets/images/hero.png" alt="madhuparnaMoulik" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section class="about">
+            <div class="container">
+                <div class="row d-flex justify-content-center" id="about">
+                    <div class="col-lg-6 col-sm-12 col-md-10 about-img">
+                        <img src="./assets/images/hero.png" alt="madhuparnamoulik_about" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 col-sm-12 col-md-10 about-info">
+                        <h2>About Me</h2>
+                        <p>An passionate and skilled frontend designer,with a good knowledge of <span
+                                class="text-highlight">HTML, CSS & JavaScript.</span> I have 8 Month of Experience I
+                            specialize in creating user-friendly interfaces that are both <span
+                                class="text-highlight">aesthetically pleasing and easy to use.</span></p>
+                        <div class="tab-titles">
+                            <h4 class="tab-links active-link" onclick="opentab('skills')">Skills</h4>
+                            <h4 class="tab-links" onclick="opentab('experience')">Experience</h4>
+                            <h4 class="tab-links" onclick="opentab('education')">Education</h4>
+                        </div>
+                        <!-- skill -->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li class="skill">HTML</li>
+                                <li>
+                                    <div class="progress" style="width:65%;">
+                                        <div class="progress-bar skill-bar" role="progressbar" style="width: 80%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </li>
+                                <li class="skill">CSS</li>
+                                <li>
+                                    <div class="progress" style="width:65%;">
+                                        <div class="progress-bar skill-bar" role="progressbar" style="width: 70%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </li>
+                                <li class="skill">JavaScript</li>
+                                <li>
+                                    <div class="progress" style="width:65%;">
+                                        <div class="progress-bar skill-bar" role="progressbar" style="width: 50%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- experience -->
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li class="experience"><span>August 2022 - February 2023</span></li>
+                                <li class="experience">Junier HTML developer At Contrivance Softtech Pvt.</li>
+                                <li class="experience"><span>January 2023 - February 2023</span></li>
+                                <li class="experience">Freelance Froentend Developer at APTTI</li>
+                                <li class="experience"><span>February 2023 - Present</span></li>
+                                <li class="experience">Junier UX Developer</li>
+                            </ul>
+                        </div>
+                        <!-- education -->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li class="experience"><span>2015</span></li>
+                                <li class="experience">Madhyamik Examination - West Bengal Board Of Secondary Education
+                                    with 77% </li>
+                                <li class="experience"><span>2017</span></li>
+                                <li class="experience">Higher Secondary Examination - West Bengal Board Of Higher
+                                    Secondary Education with 72% </li>
+                                <li class="experience"><span>2017-2021</span></li>
+                                <li class="experience">Graduation In Physics - Mahadebananda Mahavidyalaya with 73.33%
+                                </li>
+                                <li class="experience"><span>2021-2022</span></li>
+                                <li class="experience">Frontend Developer Course</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- services -->
+        <section class="services pb-50">
+            <div class="container">
+                <div class="row justify-content-center ">
+                    <div class="col-lg-10 col-md-10 col-sm-10">
+                        <h2 class="text-start">My Services</h2>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center mt-50" id="service">
+                    <div class="col-lg-3 col-md-5 col-sm-10 service-card">
+                        <img src="./assets/images/responsive-design.png" alt="responsive-design">
+                        <h3>Complete Responsive Website Development</h3>
+                        <h5>I develope fully Responsive Website With good user experience.</h5>
+                    </div>
+                    <div class="col-lg-3 col-md-5 col-sm-10 service-card">
+                        <img src="./assets/images/seo.png" alt="seo-friendly">
+                        <h3>SEO Friendly & User FFriendly Website Development</h3>
+                        <h5>I develope SEO friendly code with file incluision on server.</h5>
+                    </div>
+                    <div class="col-lg-3 col-md-5 col-sm-10 service-card">
+                        <img src="./assets/images/web-design.png" alt="website-development">
+                        <h3>Old Website Redesign & Website Mentainance</h3>
+                        <h5>Give your old website a new aesthetic - with website mentainance.</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio -->
+        <section class="portfolio">
+            <div class="container">
+                <div class="row justify-content-center ">
+                    <div class="col-lg-10 col-md-10 col-sm-10">
+                        <h2 class="text-start">My Portfolio</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center" id="portfolio">
+                    <div class="col-lg-3 col-md-5 col-sm-12 mt-20 portfolio-card">
+                        <img src="./assets/images/portfolio-1.png" alt="portfolio">
+                        <h6>Custom AI Support Website</h6>
+                        <span class="portfolio_learn_more">View Details</span>
+                    </div>
+                    <div class="col-lg-3 col-md-5 col-sm-12 mt-20 portfolio-card">
+                        <img src="./assets/images/portfolio-2.png" alt="portfolio">
+                        <h6>Research & Development Website</h6>
+                        <span class="portfolio_learn_more" data-bs-toggle="modal" data-bs-target="#exampleModal">View
+                            Details</span>
+                    </div>
+                    <div class="col-lg-3 col-md-5 col-sm-12 mt-20 portfolio-card">
+                        <img src="./assets/images/portfolio-3.png" alt="portfolio">
+                        <h6>Video Streming Platform</h6>
+                        <span class="portfolio_learn_more" data-bs-toggle="modal" data-bs-target="#exampleModal">View
+                            Details</span>
+                    </div>
+                    <div class="col-lg-3 col-md-5 mt-20 col-sm-12 portfolio-card">
+                        <img src="./assets/images/portfolio-4.png" alt="portfolio">
+                        <h6>Interior Decoration Website</h6>
+                        <span class="portfolio_learn_more" data-bs-toggle="modal" data-bs-target="#exampleModal">View
+                            Details</span>
+                    </div>
+                    <div class="col-lg-3 col-md-5 mt-20 col-sm-12 portfolio-card">
+                        <img src="./assets/images/portfolio-5.png" alt="portfolio">
+                        <h6>Car Website</h6>
+                        <span class="portfolio_learn_more" data-bs-toggle="modal" data-bs-target="#exampleModal">View
+                            Details</span>
+                    </div>
+                    <div class="col-lg-3 col-md-5 mt-20 col-sm-12 portfolio-card">
+                        <img src="./assets/images/portfolio-6.png" alt="portfolio">
+                        <h6>IT Platform</h6>
+                        <span class="portfolio_learn_more" data-bs-toggle="modal" data-bs-target="#exampleModal">View
+                            Details</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section class="contact">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-5 col-md-10 col-sm-12 d-flex justify-content-center flex-column">
+                        <h2>Let's Talk!</h2>
+                        <p>I'm passionate about website development and love nothing more than collaborating with
+                            clients to create beautiful, functional websites. Let's chat and see how we can bring your
+                            ideas to life</p>
+                        <div class="contact-socials">
+                            <ul>
+                                <li><a href=""><span><i class="bi bi-envelope"></i></span></a></li>
+                                <li><a href=""><span><i class="bi bi-linkedin"></i></span></a></li>
+                                <li><a href=""><span><i class="bi bi-instagram"></i></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-10 col-sm-12">
+                        <form id="contact-form">
+                            <input type="text" name="Name" id="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" id="Email" placeholder="Your Eamil" required>
+                            <textarea name="Message" id="Message" rows="6" placeholder="Your Query/Massage"></textarea>
+                            <button onclick="sendEmail()" class="btn contact-btn"><i
+                                    class="bi bi-send mr-10"></i>Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="bg-copyright">
+            <div class="container">
+                <div class="row copyright">
+                    <div class="col-lg-10 copyright-text">
+                        <p>&COPY;2023 <a href="index.html">Madhuparna Moulik</a> all rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+
+<!-- bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- tab content -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    (function () {
+        emailjs.init("MATGjdhkmyX9sFMip");
+    })();
+</script>
+<script>
+    function sendEmail() {
+        var form = {
+            name: document.getElementById("Name").value,
+            email: document.getElementById("Email").value,
+            message: document.getElementById("Message").value,
+        };
+
+        const serviceID = "service_tbwj6tb";
+        const templateID = "service_tbwj6tb";
+        emailjs.send(serviceID, templateID, form)
+            .then(
+                res => {
+                    document.getElementById("Name").value = "";
+                    document.getElementById("Email").value = "";
+                    document.getElementById("Message").value = "";
+                    console.log(res);
+                    alert("Your Message Send Successfully!")
+                })
+            .catch((err) => console.log(err));
+    }
+
+</script>
+
+</html>
